@@ -95,7 +95,7 @@ let html = `
     <span>This blog has ${likes} likes</span>
 `;
 
-console.log(html); */
+console.log(html);
 
 // ARRAYS
 let ninjas = ['landon', 'ryu', 'chun-li'];
@@ -120,3 +120,39 @@ let result = ninjas.push('ken');
 result = ninjas.pop();
 
 console.log(result);
+
+// NULL AND UNDEFINED
+let age = null;
+
+console.log(age, age + 3, `the age is ${age}`); */
+
+// BOOLEANS AND COMPARISONS
+console.log(true,false, "true", "false");
+
+// methods can return booleans
+let email = 'luigi@thenetninja.co.uk';
+let names = ['mario', 'luigi', 'toad'];
+
+// let result = email.includes('!');
+// let result = names.includes('bowser');
+
+// console.log(result);
+
+// comparison operators
+let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+let name = 'landon';
+
+console.log(name == 'landon');
+console.log(name == 'Landon');
+console.log(name > 'crystal');
+console.log(name > 'Landon');
+console.log(name > 'Crystal');
