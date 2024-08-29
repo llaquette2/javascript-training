@@ -1,4 +1,4 @@
-/* // strings
+/* // STRINGS
 console.log('hello, world');
 
 let email = 'mario@thenetninja.co.uk';
@@ -23,9 +23,9 @@ let result = fullName.toLowerCase();
 console.log(result, fullName);
 
 let index = email.indexOf('@');
-console.log(index); */
+console.log(index);
 
-// common string methods
+// COMMON STRING METHODS
 
 let email = 'mario@thenetninja.co.uk';
 
@@ -39,4 +39,38 @@ let email = 'mario@thenetninja.co.uk';
 
 // let result = email.replace('n', 'w');
 
-console.log(result);
+console.log(result); 
+
+// NUMBERS
+let radius = 10;
+const pi = 3.14;
+
+// console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+
+// console.log(10 / 2);
+// let result = radius % 3;
+// let result = pi * radius**2;
+
+// let result = 5 * (10-3)**2;
+
+// console.log(result);
+
+let likes = 10;
+
+// likes = likes + 1;
+// likes++;
+// likes--;
+
+// likes += 10;
+// likes -= 5;
+// likes *=2;
+// likes /=2;
+
+// console.log(likes);
+
+// console.log(5 / 'hi');
+
+let result = 'the blog has ' + likes + ' likes';
+console.log(result); */
