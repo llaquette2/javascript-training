@@ -124,7 +124,7 @@ console.log(result);
 // NULL AND UNDEFINED
 let age = null;
 
-console.log(age, age + 3, `the age is ${age}`); */
+console.log(age, age + 3, `the age is ${age}`);
 
 // BOOLEANS AND COMPARISONS
 console.log(true,false, "true", "false");
@@ -156,3 +156,35 @@ console.log(name == 'Landon');
 console.log(name > 'crystal');
 console.log(name > 'Landon');
 console.log(name > 'Crystal');
+
+// COMPARISONS
+let age = 25;
+
+// loose comparison (different types can still be equal)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+
+// strict comparison (different types cannot be equal)
+
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25'); */
+
+// TYPE CONVERSION
+let score = '100';
+
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
+
+// let result = Number('hello');
+// let result = String(50);
+// let result = Boolean(0);
+let result = Boolean('');
+
+console.log(result, typeof result);
+
