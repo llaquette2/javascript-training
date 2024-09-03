@@ -63,8 +63,8 @@ const mssg = document.querySelector('p');
 console.log(mssg.getAttribute('class'));
 mssg.setAttribute('class', 'success');
 mssg.setAttribute('style', 'color:green');
-*/
-// adding and removing classes
+
+// adding and removing properties
 const title = document.querySelector('h1');
 
 //title.setAttribute('style', 'margin: 50px');
@@ -76,3 +76,40 @@ title.style.margin = '50px';
 title.style.color = 'crimson';
 title.style.fontSize = '60px';
 title.style.margin = '';
+*/
+// const content = document.querySelector('p');
+
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('error');
+// content.classList.add('success');
+
+// my attempt at the challenge
+// const paras = document.querySelectorAll('p');
+// paras.forEach(para => {
+//     if(para.innerText.includes('success')) {
+//         para.classList.add('success');
+//     }
+//     else if(para.innerText.includes('error')) {
+//         para.classList.add('error');
+//     }
+// });
+
+// video version of challenge
+const paras = document.querySelectorAll('p');
+
+paras.forEach(p => {
+    if(p.textContent.includes('error')) {
+        p.classList.add('error');
+    }
+    if(p.innerText.includes('success')) {
+        p.classList.add('success');
+    }
+});
+
+// toggle classes
+const title = document.querySelector('.title');
+
+title.classList.toggle('test');
+title.classList.toggle('test');
+
