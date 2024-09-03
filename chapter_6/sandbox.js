@@ -26,7 +26,7 @@ console.log(errors);
 // get elements by their tag name
 const paras = document.getElementsByTagName('p');
 console.log(paras[1]);
-*/
+
 // changing text and html
 const para = document.querySelector('p');
 
@@ -50,3 +50,29 @@ const people = ['mario', 'luigi', 'yoshi'];
 people.forEach(person => {
     content.innerHTML += `<p>${person}</p>`;
 });
+
+// getting and setting attributes
+const link = document.querySelector('a');
+
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.thenetninja.co.uk');
+link.innerText = 'The Net Ninja Website';
+
+const mssg = document.querySelector('p');
+
+console.log(mssg.getAttribute('class'));
+mssg.setAttribute('class', 'success');
+mssg.setAttribute('style', 'color:green');
+*/
+// adding and removing classes
+const title = document.querySelector('h1');
+
+//title.setAttribute('style', 'margin: 50px');
+
+console.log(title.style);
+console.log(title.style.color);
+
+title.style.margin = '50px';
+title.style.color = 'crimson';
+title.style.fontSize = '60px';
+title.style.margin = '';
